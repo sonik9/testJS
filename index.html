@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="MultipleDownList.js"></script>
+</head>
+<body>
+<div class="menu">
+
+
+</div>
+<script>
+    (function () {
+        var example1 = [
+            {
+                title: "Test1",
+                checked: true,
+                action:function () {console.log("test1")}
+            },
+            {
+                title: "Volvo",
+                checked: false,
+                action:function () {console.log("test1")}
+            },
+            {
+                title: "Saab",
+                checked: false,
+                action:function () {console.log("test1")}
+            },
+            {
+                title: "Honda",
+                checked: false,
+                action:function () {console.log("test1")}
+            }
+        ]
+
+        var mdl= new MultipleDownList(document.querySelector('.menu'),example1);
+    })();
+</script>
+
+</body>
+</html>
