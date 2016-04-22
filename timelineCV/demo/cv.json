@@ -1,0 +1,144 @@
+{
+  "work": [
+    {
+      "company": "Credit Agricole",
+      "position": "Project manager",
+      "website": "http://credit-agricole.ua",
+      "startDate": "2013-02-10",
+      "endDate": "2014-08-30",
+      "summary": "Good job",
+      "responsibilities": [
+        "Planowanie i prowadzenie projektów w kierunkah: Systems Integration and Business Process Management and Re-engineering",
+        "Określenie zakresu projektów, celów, głównych faz projektów, głównych uczestników, zasobów i rezultatów; opracowanie planów projektowych, które identyfikują kluczowe kwestie; Tworzenie harmonogramu planu projektu oraz ego terminów i etapów; montaż i koordynacja multidyscyplinarnych zespołów projektowych."
+      ]
+    },
+    {
+      "company": "LLC Technomatix",
+      "position": "Project manager",
+      "website": "http://credit-agricole.ua",
+      "startDate": "2011-08-15",
+      "endDate": "2013-03-30",
+      "summary": "Good job",
+      "responsibilities": [
+        "Planowanie i prowadzenie projektów w kierunkah: Systems Integration and Business Process Management and Re-engineering",
+        "Określenie zakresu projektów, celów, głównych faz projektów, głównych uczestników, zasobów i rezultatów; opracowanie planów projektowych, które identyfikują kluczowe kwestie; Tworzenie harmonogramu planu projektu oraz ego terminów i etapów; montaż i koordynacja multidyscyplinarnych zespołów projektowych."
+      ]
+    },
+    {
+      "company": "Vega Telecom",
+      "position": "Sale manager",
+      "website": "http://credit-agricole.ua",
+      "startDate": "2005-06-01",
+      "endDate": "2010-03-30",
+      "summary": "Good job",
+      "responsibilities": [
+        "Planowanie i prowadzenie projektów w kierunkah: Systems Integration and Business Process Management and Re-engineering",
+        "Określenie zakresu projektów, celów, głównych faz projektów, głównych uczestników, zasobów i rezultatów; opracowanie planów projektowych, które identyfikują kluczowe kwestie; Tworzenie harmonogramu planu projektu oraz ego terminów i etapów; montaż i koordynacja multidyscyplinarnych zespołów projektowych."
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "",
+      "position": "",
+      "website": "",
+      "startDate": "",
+      "endDate": "",
+      "summary": "",
+      "responsibilities": [
+        ""
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Polish-Japanese Academy of Information Technology",
+      "shot":"PJWSTK",
+      "area": "Computer since",
+      "studyType": "Master",
+      "startDate": "2015-03-01",
+      "endDate": "2017-02-30",
+      "gpa": "",
+      "courses": [
+        ""
+      ]
+    },
+    {
+      "institution": "KROK",
+      "area": "Project management",
+      "studyType": "Master",
+      "startDate": "2012-10-01",
+      "endDate": "2013-08-01",
+      "gpa": "",
+      "courses": [
+        ""
+      ]
+    },
+    {
+      "institution": "ZIEIT",
+      "area": "Computer since",
+      "studyType": "Bachelor",
+      "startDate": "2004-11-01",
+      "endDate": "2009-06-30",
+      "gpa": "",
+      "courses": [
+        ""
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "",
+      "date": "",
+      "awarder": "",
+      "summary": ""
+    }
+  ],
+  "publications": [
+    {
+      "name": "",
+      "publisher": "",
+      "releaseDate": "",
+      "website": "",
+      "summary": ""
+    }
+  ],
+  "skills": [
+    {
+      "name": "",
+      "level": "",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript"
+      ]
+    },
+    {
+      "name": "",
+      "level": "",
+      "keywords": [
+        ""
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "",
+      "fluency": ""
+    }
+  ],
+  "interests": [
+    {
+      "name": "",
+      "keywords": [
+        ""
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "",
+      "reference": ""
+    }
+  ]
+}

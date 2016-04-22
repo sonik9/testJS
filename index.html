@@ -1,42 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-    <meta charset="UTF-8">
-    <title>Title</title>
-    <link rel="stylesheet" href="main.css">
-    <script src="MultipleDownList.js"></script>
+<meta charset="UTF-8">
+<title>Title</title>
+<link rel="stylesheet" href="reset.css">
+<link rel="stylesheet" href="timelineCV/css/timelineCV.css">
+
+<script src="vendor/jquery-1.12.3.min.js"></script>
+<script src="timelineCV/dist/jquery.timelineCV-0.1.1.js"></script>
+<!--<script src="MultipleDownList.js"></script>-->
 </head>
 <body>
 <div class="menu">
-
-
 </div>
-<script>
-    (function () {
-        var example1 = [
-            {
-                title: "Test1",
-                checked: true,
-                action:function () {console.log("test1")}
-            },
-            {
-                title: "Volvo",
-                checked: false,
-                action:function () {console.log("test1")}
-            },
-            {
-                title: "Saab",
-                checked: false,
-                action:function () {console.log("test1")}
-            },
-            {
-                title: "Honda",
-                checked: false,
-                action:function () {console.log("test1")}
-            }
-        ]
 
-        var mdl= new MultipleDownList(document.querySelector('.menu'),example1);
-    })();
+<div class="timeline">
+</div>
+
+<script>
+    $(function () {
+        var structure={
+
+
+        }
+
+
+        $('#timeline').timelineCV({ //user configuration
+
+            created: function (e, el) {
+            }
+        });
+    });
+</script>
+
+
+<script>
+    $(document).ready(function () {
+        var a = 2006, b = 2012;
+        var x = 2004, y = 2008;
+
+        function createLineTime(y1, y2) {
+            var atop = $('.timeline-year').filter('[id="#' + y1 + '"]').offset().top;
+            var btop = $('.timeline-year').filter('[id="#' + y2 + '"]').offset().top;
+            var len = 0;
+            var mar = -25;
+            var color = "#4kn342"
+            if (atop < btop) {
+                len = btop - atop;
+            } else {
+                len = atop - btop
+            }
+            ;
+            var arrTime = $('.time1');
+            if (arrTime.length > 0) {
+                color = getRandomColor();
+                $.each(arrTime, function (i, item) {
+                    var x1 = $(item).offset().top;
+                    var y1 = x1 + item.offsetHeight;
+                    if ((atop > x1 && atop < y1) || (btop > x1 && btop < y1)) {
+                        mar = parseInt($(item).css('margin-left')) - 10;
+
+                    }
+                })
+            }
+            var time1 = $('<div/>', {'class': 'time1'}).css({
+                'height': len, 'top': atop + 25 + "px",
+                'margin-left': mar + "px",
+                'background-color': color
+            });
+            $('.timeline-line').append(time1);
+        }
+
+        createLineTime(2000, 2006);
+        createLineTime(a, b);
+        createLineTime(x, y);
+        createLineTime(2014, 2016);
+
+    });
+
+    /*
+     (function () {
+     var example1 = [
+     {
+     title: "Test1",
+     checked: true,
+     action:function () {console.log("test1")}
+     },
+     {
+     title: "Volvo",
+     checked: false,
+     action:function () {console.log("test1")}
+     },
+     {
+     title: "Saab",
+     checked: false,
+     action:function () {console.log("test1")}
+     },
+     {
+     title: "Honda",
+     checked: false,
+     action:function () {console.log("test1")}
+     }
+     ]
+
+     var mdl= new MultipleDownList(document.querySelector('.menu'),example1);
+     })();*/
 </script>
 
 </body>

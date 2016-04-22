@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Title</title>
+<link rel="stylesheet" href="../../reset.css">
+<link rel="stylesheet" href="../css/timelineCV-black.css">
+
+<script src="../../vendor/jquery-1.12.3.js"></script>
+<script src="../dist/jquery.timelineCV-0.1.1.js"></script>
+<script src="../../vendor/randomColor.js"></script>
+</head>
+<body>
+<div class="timeline">
+</div>
+
+<script>
+    $(function () {
+        var data1 = {"work": "work1"};
+        $.getJSON("cv.json", function (data) {
+                    console.log("success");
+                    $('.timeline').timelineCV({ //user configuration
+                        data: data,
+
+                        created: function (e, el) {
+                            console.log("dwdwd");
+                        }
+                    })
+                })
+                .fail(function () {
+                    console.log("error");
+                });
+    });
+
+</script>
+
+</body>
+</html>

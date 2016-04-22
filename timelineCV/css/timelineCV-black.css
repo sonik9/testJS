@@ -1,0 +1,286 @@
+
+/* Let's get this party started */
+::-webkit-scrollbar {
+    width: 1px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    /*-webkit-border-radius: 10px;*/
+    /*border-radius: 10px;*/
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    /*border-radius: 10px;*/
+    background: rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+::-webkit-scrollbar-thumb:window-inactive {
+    background: rgba(0, 0, 0, 0.4);
+}
+.timeline {
+    max-height: 800px;
+    /*max-width: 50%;*/
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.timeline-cv {
+    margin: 30px 0 0 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+}
+
+/* The line */
+.timeline-cv:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background:grey;
+    left: 50%;
+    margin-left: -6px;
+    opacity: 0.5;
+}
+
+
+/* The date/time */
+.timeline-cv > li {
+    position: relative;
+}
+
+.timeline-cv > li .timeline-cv-time {
+    color: #ffffff;
+    display: block;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    left: 50%;
+    top: 0;
+    margin: 0 0 0 -26px;
+    color: #000000;
+    border: 1px solid black;
+    background: #ffffff;
+    /*border-radius: 50%;*/
+    /*box-shadow: 0 0 15px 8px #5f98b9;*/
+
+}
+
+.timeline-cv > li .timeline-cv-time span {
+    display: block;
+    text-align: center;
+    line-height: 40px;
+}
+
+/*
+.timeline-cv > li .timeline-cv-time span:first-child {
+    !*font-size: 0.9em;*!
+    color: whitesmoke;
+}
+
+.timeline-cv > li .timeline-cv-time span:last-child {
+    !*font-size: 2.9em;*!
+    color: #ffffff;
+}
+
+.timeline-cv > li:nth-child(odd) .timeline-cv-time span:last-child {
+    color: #000000;
+}
+*/
+
+
+.timeline-cv .timeline-cv-eventline-right{
+    position: absolute;
+    left: 50%;
+    top: 0px;
+    width: 6px;
+    opacity: 0.7;
+    margin-left: 30px;
+    border: 1px solid #000000;
+    background: transparent;
+    /*border-radius: 10px;*/
+
+}
+.timeline-cv .timeline-cv-eventline-right:before {
+     position: absolute;
+     border: solid transparent;
+     border-bottom-color: inherit;
+     content: " ";
+     height: 0;
+     width: 0;
+     border-width: 4px;
+     top: -9px;
+    margin-left: -1px;
+     content: "";
+ }
+
+.timeline-cv .timeline-cv-eventline-right:after {
+    position: absolute;
+    border: solid transparent;
+    border-top-color: inherit;
+    content: " ";
+    height: 0;
+    width: 0;
+    border-width: 4px;
+    top: 100%;
+    content: "";
+    margin-left: -1px;
+}
+.timeline-cv .timeline-cv-eventline-right > span{
+    /*margin-left: -15px;*/
+    font-size: 0.7em;
+    position:absolute;
+    color: #000000;
+}
+
+.timeline-cv .timeline-cv-eventline-left{
+    position: absolute;
+    left: 50%;
+    top: 0px;
+    width: 6px;
+    border: 1px solid #000000;
+    opacity: 0.7;
+    margin-left: -50px;
+    /*border-radius: 10px;*/
+}
+
+.timeline-cv .timeline-cv-eventline-left:before {
+    position: absolute;
+    border: solid transparent;
+    border-bottom-color: inherit;
+    content: " ";
+    height: 0;
+    width: 0;
+    border-width: 4px;
+    top: -9px;
+    content: "";
+    margin-left: -1px;
+}
+
+.timeline-cv .timeline-cv-eventline-left:after {
+    position: absolute;
+    border: solid transparent;
+    border-top-color: inherit;
+    content: "";
+    height: 0;
+    width: 0;
+    border-width: 4px;
+    top: 100%;
+    content: "";
+    margin-left: -1px;
+}
+.timeline-cv .timeline-cv-eventline-left > span{
+    margin-left: -35px;
+    font-size: 0.7em;
+    position: absolute;
+    color: #000000 ;
+}
+
+.timeline-cv .timeline-cv-eventdesc-left{
+    /*opacity: 0.8;*/
+    top: 0px;
+    right: 50%;
+    position: absolute;
+    margin-right: 110px;
+    max-width: 250px;
+    border-radius: 2px;
+    border: 1px solid #000000;
+    color: #000000;
+    /*box-shadow: 0 0 0 8px #afdcf8;*/
+}
+.timeline-cv .timeline-cv-eventdesc-left > time{
+    display: none;
+    margin :3px;
+    font-size: 0.8em;
+    /*color: #bdd0db;*/
+}
+.timeline-cv .timeline-cv-eventdesc-left > h3{
+    margin :5px;
+    font-size: 1em;
+    color: #000000;
+    border-bottom: 1px solid
+}
+.timeline-cv .timeline-cv-eventdesc-left > p{
+    margin :5px;
+    font-size: 0.9em;
+    color: #000000;
+    line-height: 1.4;
+    /*transition: transform 0.2s linear;*/
+}
+.timeline-cv .timeline-cv-eventdesc-left > span {
+    border-top: 1px dashed grey;
+    width: 45px;
+    position: absolute;
+    top: 19px;
+    right: -58px;
+}
+
+.timeline-cv .timeline-cv-eventdesc-left:after {
+left: 100%;
+border: solid transparent;
+content: " ";
+height: 0;
+width: 0;
+position: absolute;
+pointer-events: none;
+border-left-color: #000000;
+border-width: 10px;
+top: 10px;
+}
+.timeline-cv .timeline-cv-eventdesc-right{
+    top: 0px;
+    left: 50%;
+    position: absolute;
+    max-width: 250px;
+    border-radius: 2px;
+    /*box-shadow: 0 0 0 8px #afdcf8;*/
+    margin-left: 100px;
+    /*margin: 0 0 15px 10%;*/
+    border: 1px solid #000000;
+}
+.timeline-cv .timeline-cv-eventdesc-right > time{
+    display: none;
+    margin :3px;
+    font-size: 0.8em;
+    color: #bdd0db;
+}
+.timeline-cv .timeline-cv-eventdesc-right > h3{
+    margin :5px;
+    font-size: 1em;
+    color: #000000;
+    border-bottom: 1px solid
+}
+.timeline-cv .timeline-cv-eventdesc-right > p{
+    margin :5px;
+    font-size: 0.9em;
+    color: #000000;
+    line-height: 1.4;
+}
+.timeline-cv .timeline-cv-eventdesc-right > span {
+    border-top: 1px dashed grey;
+    width: 45px;
+    position: absolute;
+    top: 19px;
+    left: -61px;
+    /*box-shadow: 0 0 0 1px #6a9fbd;*/
+}
+
+.timeline-cv  .timeline-cv-eventdesc-right:after {
+    right: 100%;
+    border: solid transparent;
+    content: "";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-right-color: #000000;
+
+    border-width: 10px;
+    top: 10px;
+}

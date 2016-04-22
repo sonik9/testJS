@@ -65,3 +65,11 @@ function queryStringToObject(queryString) {
 }
 //console.log(queryStringToObject('wtf=%D0%9A%D0%B0%D1%80%D1%82%D0%BE%D1%88%D0%BA%D0%B0%3D%D1%85%D0%BB%D0%B5%D0%B1%2C%D0%BC%D0%B0%D1%81%D0%BB%D0%BE%3D%D0%B6%D1%8B%D1%80'));
 console.log(queryStringToObject("user=true&age=29&name=Evgen"));
+
+function sum (a, b) {
+    return a + b;
+}
+
+var addSeven = sum.bind(null,0);
+
+console.log(addSeven(9));
