@@ -1,0 +1,21 @@
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+ul:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    bottom: 0;
+    width: 50%;
+    height: 1px;
+    background:grey;
+    left: 10%;
+    margin-left: -6px;
+    opacity: 0.5;
+}
+ul li {
+    display: inline;
+    margin-top: 50%;
+}

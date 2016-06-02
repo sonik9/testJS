@@ -3,11 +3,10 @@
 <meta charset="UTF-8">
 <title>Title</title>
 <link rel="stylesheet" href="../../reset.css">
-<link rel="stylesheet" href="../css/timelineCV-black.css">
+<link rel="stylesheet" href="../css/timelineCV-black-0.2.css">
 
 <script src="../../vendor/jquery-1.12.3.js"></script>
-<script src="../dist/jquery.timelineCV-0.1.1.js"></script>
-<script src="../../vendor/randomColor.js"></script>
+<script src="../dist/jquery.timelineCV-0.2.1.js"></script>
 </head>
 <body>
 <div class="preload">
@@ -16,20 +15,24 @@
     </svg>
 </div>
 <div class="timeline">
+
+
 </div>
 
 <script>
     jQuery(document).ready(function ($) {
                 $(function () {
                     var data1 = {"work": "work1"};
-                    $.getJSON("cv.json", function (data) {
+                    $.getJSON("resume.json", function (data) {
                                 console.log("success");
                                 $('.timeline').timelineCV({ //user configuration
                                     data: data,
-                                    typeOfTimeline: "default",
-                                    typeOfView: "horizontal",
+                                    //typeOfTimeline: "default",
+                                    typeOfTimeline: "expanded",
+                                    //typeOfView: "horizontal",
+                                    typeOfView: "vertical",
                                     created: function (e, el) {
-                                        animateTimeline();
+                                        //animateTimeline();
                                     }
                                 })
                             })

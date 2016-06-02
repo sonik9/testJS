@@ -1,0 +1,191 @@
+{
+  "basics": {
+    "name": "Vitalii Upir",
+    "label": "",
+    "picture": "",
+    "email": "upirvo@gmail.com",
+    "phone": "+48 790 390 855",
+    "website": "https://upir.me",
+    "summary": "",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Warsaw, Poland",
+      "countryCode": "",
+      "region": ""
+    },
+    "profiles": []
+  },
+  "work": [
+    {
+      "company": "Freelance projects ",
+      "position": "Java/JavaScript developer",
+      "website": "",
+      "startDate": "2014-06-01",
+      "endDate": "2017-11-11",
+      "summary": "",
+      "location":"",
+      "highlights": [
+        "Developing small projects, web(backend/frontend), separate modules, also mobile applications(Android)."
+      ]
+    },
+    {
+      "company": "Bank Credit Agricole Ukraine ",
+      "position": "Project manager",
+      "website": "",
+      "startDate": "2013-02-10",
+      "endDate": "2014-08-30",
+      "summary": "The largest bank and one of the largest company in France. An extensive branch network and the value of assets suggests the largest banking group in France and one of the largest in the world.",
+      "location":"Ukraine",
+      "highlights": [
+        "Plan, direct and co-ordinate activities of multiple projects ranging in value from $X to $X in the areas of IT, Systems Integration and Business Process Management and Re-engineering",
+        "Define project scope, objectives, staffing, resources and deliverables, plan and schedule project timelines and milestones, assemble and coordinate multi-disciplinary project teams, develop and present reports of project progress;"
+      ]
+    },
+    {
+      "company": "Тechnomatika LLC",
+      "position": "Project manager",
+      "website": "",
+      "startDate": "2011-06-01",
+      "endDate": "2013-01-30",
+      "summary": "E-learning company. Providing unique solutions that best fits the client's needs. Technological leadership in the field of e-learning in Ukraine. Providing customers with the widest range of services in the field of e-learning. Development of distance education and assessment, electronic media courses;",
+      "location":"Ukraine",
+      "highlights": [
+        "Development and implementation of projects (software development), Compilation of pre-project documentation, development and coordination with the heads of departments, project curator of the concept, goals and main stages of the projects, plan and schedule project timelines and milestones, assemble and coordinate multi-disciplinary project teams, develop and present reports of project progress."
+      ]
+    },
+    {
+      "company": "Vega Telecommunications Group",
+      "position": "Sale manager",
+      "website": "",
+      "startDate": "2006-06-05",
+      "endDate": "2011-05-20",
+      "summary": "Garating of international and long-distance telecommunication, data transmission and Internet access services to corporations; Ukomline LLC is a part of the largest Ukrainian telecommunication holding «Optima Telecom» - \"Farlep\" - «Vegatelecom»; nowadays it has the leading position in segment of stationary telephone and corporate communication services;",
+      "location":"Ukraine",
+      "highlights": [
+        "Collaboration with major telecom operators and corporative customers, V.I.P customer base, clients base network expanding, meetings arranging, negotiations, creation of services presentations, staff management and service quality controlling"
+      ]
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Zaporozhe Institute of economy and information technology",
+      "area": "Computer since",
+      "studyType": "Bachelor",
+      "location":"Ukraine",
+      "startDate": "2004-11-01",
+      "endDate": "2009-06-30",
+      "gpa": "",
+      "courses": [
+        "Computer networks and systems"
+      ]
+    },
+    {
+      "institution": "University «KROK»",
+      "area": "Project management",
+      "studyType": "Master program",
+      "location":"Ukraine",
+      "startDate": "2012-10-01",
+      "endDate": "2013-08-01",
+      "gpa": "",
+      "courses": [
+        "Project management"
+      ]
+    },
+    {
+      "institution": "Polish–Japanese academy of information technologies",
+      "area": "Computer since",
+      "studyType": "Master program",
+      "location":"Poland",
+      "startDate": "2015-03-01",
+      "endDate": "2017-02-30",
+      "gpa": "",
+      "courses": [
+        "Databases and software engineering"
+      ]
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "IT Skills: Design and Development of software",
+      "level": "High-level computer skills",
+      "keywords": [
+        "Java, Java EE related technologies: Core Java, Spring framework(Spring MVC, Spring Batch, Spring Security, Spring Data JPA, Spring Web Services), JDBC, Hibernate, JPA,  Tiles, JSP, JSPX, Maven, Gradle, jUnit; Another: REST, SOAP, oAuth2;",
+        "Frontend technologies: Java Script, jQuery, AJAX, CSS, HTML;",
+        "Cloud technologies: Amazon web services/EC2, Digital Ocean;",
+        "Application server/container: Tomcat, Jetty, Apache, nginx, IIS;",
+        "Databases: MySql, MSSQL(T-SQL), Oracle(pl/sql), SQLite;",
+        "Bug tracking system: Mantis BT;",
+        "Basic knowledge: Android development, C#, WPF, C++, PHP(Yii, Codeigniter);",
+        "Experience in creating web projects."
+      ]
+    },
+    {
+      "name": "IT skills: additional knowledges",
+      "level": "",
+      "keywords": [
+        "OS: Windows, Linux, Android, setup server OS, configurations web-server, installations and configuration additional software;",
+        "Application software: MS Office, MS CRM, MS Project, Sales Expert CRM, Virtual Box, Intelij software(Idea, WebStorm, Android studio), Visual Studio, etc.;",
+        "Configuring workstations based on Windows OS, any application software;",
+        "Administration with ssh, Radmin, TeamViewer;"
+      ]
+    },
+    {
+      "name": "Professional skills",
+      "level": "",
+      "keywords": [
+        "Reliable knowledge of academic disciplines",
+        "РМI, SCRUM, ITIL",
+        "Considerable operational experience in IT - field, negotiating and business correspondence, incl. in English",
+        "Communication and presentation skills",
+        "Team, time and territory management experience"
+      ]
+    },
+    {
+      "name": "Personality",
+      "level": "",
+      "keywords": [
+        "Responsibility, diligence, result orientation",
+        "Strategic thinking, analytical skills",
+        "Proactivity, creativity, leadership",
+        "Self-organization and self-development",
+        "Decision making, problem solving",
+        "Ability to work under pressure"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Russian",
+      "fluency": "fluently (native)"
+    },
+    {
+      "language": "Ukrainian",
+      "fluency": "fluently (native)"
+    },
+    {
+      "language": "English",
+      "fluency": "intermediate(B2)"
+    },
+    {
+      "language": "Polish",
+      "fluency": "B1"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Sport",
+      "keywords": [
+        "Tennis, bicycles, gym"
+      ]
+    },
+    {
+      "name": "",
+      "keywords": []
+    }
+  ],
+  "references": []
+}

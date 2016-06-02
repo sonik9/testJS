@@ -4,53 +4,39 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link href="t1.css" rel="stylesheet"/>
+    <script  src="test1.js"></script>
+    <style>
+        .main{
+            border: 1px solid black;
+            height: 500px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .bl{
+            width: 200px;
+            padding: 20px;
+            margin: 20px;
+            border: 1px solid red;
+            background-color: antiquewhite;
+
+
+        }
+    </style>
 </head>
 <body>
-<ul id='timeline' >
-    <li class='work'>
-        <input class='radio' id='work5' name='works' type='radio' checked>
-        <div class="relative cbp_tmlabel">
-            <label for='work5'>Это первое событие</label>
-            <span class='date'>15.09.2015</span>
-            <span class='circle'></span>
-        </div>
-        <div class='content'>
-            <p>Описание первого события. Можно включить описание для любой даты.</p>
-        </div>
-    </li>
-    <li class='work'>
-        <input class='radio' id='work4' name='works' type='radio'>
-        <div class="relative">
-            <label for='work4'>Второе событие</label>
-            <span class='date'>17.09.2015</span>
-            <span class='circle'></span>
-        </div>
-        <div class='content'>
-            <p>Описание второго события </p>
-        </div>
-    </li>
-    <li class='work'>
-        <input class='radio' id='work3' name='works' type='radio'>
-        <div class="relative">
-            <label for='work3'>Третье важное событие</label>
-            <span class='date'>19.09.2015</span>
-            <span class='circle'></span>
-        </div>
-        <div class='content'>
-            <p>Описание третьего события.</p>
-        </div>
-    </li>
-    <li class='work'>
-        <input class='radio' id='work2' name='works' type='radio'>
-        <div class="relative">
-            <label for='work2'>Последнее событие</label>
-            <span class='date'>20.09.2015</span>
-            <span class='circle'></span>
-        </div>
-        <div class='content'>
-            <p>Описание события</p>
-        </div>
-    </li>
-</ul>
+
+<div class="main">
+    <div class="bl fl"></div>
+    <div class="bl fl"></div>
+    <div class="bl fl"></div>
+</div>
+
+<script>
+
+</script>
+
 </body>
 </html>
